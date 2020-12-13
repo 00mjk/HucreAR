@@ -4,12 +4,12 @@ using UnityEngine;
 using TMPro;
 public class TouchController : MonoBehaviour
 {
-    [Header("Organel Manager")]
+    //[Header("Organel Manager")]
     public OrganelManager organelManager;
-    [Header("Bilgi Texti")]
+    //[Header("Bilgi Texti")]
     public TextMeshProUGUI InfoText;
 
-    [Header("Outline Shader")]
+    //[Header("Outline Shader")]
     public Shader outline;
 
    

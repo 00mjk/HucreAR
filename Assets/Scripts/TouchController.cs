@@ -9,12 +9,20 @@ public class TouchController : MonoBehaviour
     //[Header("Bilgi Texti")]
     public TextMeshProUGUI InfoText;
 
+<<<<<<< HEAD
     public GameObject YaziPanel;
 
+=======
+>>>>>>> bbbf7580c49d3494c5a55a7a7904bb04a5ed745b
     //[Header("Outline Shader")]
     public Shader outline;
 
    
+<<<<<<< HEAD
+=======
+
+    
+>>>>>>> bbbf7580c49d3494c5a55a7a7904bb04a5ed745b
     void FixedUpdate()
     {
         if (Input.GetMouseButtonDown(0))
@@ -23,6 +31,10 @@ public class TouchController : MonoBehaviour
         }
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> bbbf7580c49d3494c5a55a7a7904bb04a5ed745b
     //Dokunmayı kontrol eden fonksiyon
      void Touch()
      {
@@ -37,13 +49,21 @@ public class TouchController : MonoBehaviour
         }
      } 
 
+<<<<<<< HEAD
     //Organel bilgisini Text'e yazdırır.
+=======
+
+>>>>>>> bbbf7580c49d3494c5a55a7a7904bb04a5ed745b
     void GetOrganelInfo(TextMeshProUGUI InfoText, string OrganelTag)
     {
         InfoText.text = SearchOrganelForInfo(OrganelTag);
     }
 
     //Organelde ara
+<<<<<<< HEAD
+=======
+
+>>>>>>> bbbf7580c49d3494c5a55a7a7904bb04a5ed745b
     string SearchOrganelForInfo(string organelTag)
     {
         string wasFoundInfo = "";
@@ -52,9 +72,14 @@ public class TouchController : MonoBehaviour
             
             if(item.Etiket == organelTag)
             {
+<<<<<<< HEAD
                 YaziPanel.SetActive(true);
                 wasFoundInfo = item.OrganelBilgi;
                 item.SetOutline(outline); //Aranan organel bulunduğunda outline shader uygular.
+=======
+                wasFoundInfo = item.OrganelBilgi;
+                item.SetOutline(outline);
+>>>>>>> bbbf7580c49d3494c5a55a7a7904bb04a5ed745b
                 break;
             }
         }

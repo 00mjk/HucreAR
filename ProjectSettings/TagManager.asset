@@ -14,9 +14,12 @@ TagManager:
   - Mitokondri
   - Ribozom
   - Lizozom
+<<<<<<< HEAD
   - Lizozom2
   - Mitokondri2
   - Mitokondri3
+=======
+>>>>>>> c9d70c4d21d1fffde7db10769d5e5e2ed528a812
   layers:
   - Default
   - TransparentFX

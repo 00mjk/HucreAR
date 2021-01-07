@@ -5,6 +5,7 @@ using UnityEngine;
 public class ButtonController : MonoBehaviour
 {
     public GameObject InfoPanel;
+<<<<<<< HEAD
     public AudioSource BlobTouchEffect;
 
     public TouchController TouchController;
@@ -81,5 +82,11 @@ public class ButtonController : MonoBehaviour
         }
 
 
+=======
+
+    public void ClosePanel()
+    {
+        InfoPanel.SetActive(false);
+>>>>>>> c9d70c4d21d1fffde7db10769d5e5e2ed528a812
     }
 }

@@ -6,6 +6,17 @@ TagManager:
   tags:
   - ImageTarget
   - ActiveModel
+  - EndoplazmikRetikulum
+  - Golgi
+  - Cekirdek
+  - Sentrozom
+  - Sitoplazma
+  - Mitokondri
+  - Ribozom
+  - Lizozom
+  - Lizozom2
+  - Mitokondri2
+  - Mitokondri3
   layers:
   - Default
   - TransparentFX

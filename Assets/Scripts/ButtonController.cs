@@ -1,10 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
 using UnityEngine.SceneManagement;
 public class ButtonController : MonoBehaviour
 {
     public GameObject InfoPanel;
+=======
+
+public class ButtonController : MonoBehaviour
+{
+    public GameObject InfoPanel;
+<<<<<<< HEAD
+>>>>>>> 68354328debafcd8d77cbb647b5f67b90a143935
     public AudioSource BlobTouchEffect;
 
     public TouchController TouchController;
@@ -81,10 +89,19 @@ public class ButtonController : MonoBehaviour
         }
 
 
+<<<<<<< HEAD
     }
 
     public void Menu()
     {
         SceneManager.LoadScene("Menu");
+=======
+=======
+
+    public void ClosePanel()
+    {
+        InfoPanel.SetActive(false);
+>>>>>>> c9d70c4d21d1fffde7db10769d5e5e2ed528a812
+>>>>>>> 68354328debafcd8d77cbb647b5f67b90a143935
     }
 }

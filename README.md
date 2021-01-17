@@ -1,0 +1,2 @@
+# Hucre-AR
+ The aim of this project is to teach children the organelles of animal and plant cells better with augmented reality. Since I believe in the power of visual intelligence, I believe this application will be beneficial for many children.[TR]Bu projenin amacı çocuklara hayvan ve bitki hücrelerinin organellerini artırılmış gerçeklikle daha iyi öğretmektir. Görsel zekanın gücüne inandığım için bu uygulamanın birçok çocuk için faydalı olacağına inanıyorum.

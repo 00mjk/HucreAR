@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TurnModel : MonoBehaviour
 {
+    public TouchController touchController;
     bool isTurnActive = false;
     GameObject ActiveModel;
     
@@ -18,8 +19,11 @@ public class TurnModel : MonoBehaviour
     public void TurnActiveModel()
     {
         //Döndürme Fonksiyonu
-        Vector3 rotateVectors = new Vector3(0,0.5f,0);
-        ActiveModel.transform.Rotate(rotateVectors);
+        if (!touchController.isActive)
+        {
+            Vector3 rotateVectors = new Vector3(0, 0.5f, 0);
+            ActiveModel.transform.Rotate(rotateVectors);
+        }
     }
 
     private void FixedUpdate()
